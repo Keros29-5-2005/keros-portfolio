@@ -38,14 +38,14 @@ Competition engineering project </p>
       <button
         onClick={() =>
           openImage(
-            '/projects/maze-hero.jpg',
+            '/Competitisions/technoxian-hero.jpg',
             'Autonomous Maze Solver Robot'
           )
         }
         className="w-full text-left"
       >
         <Image
-          src="/projects/maze-hero.jpg"
+          src="/Competitisionss/technoxian-hero.jpg"
           alt="Autonomous Maze Solver Robot"
           width={1600}
           height={900}
@@ -157,14 +157,14 @@ Competition engineering project </p>
           <button
             onClick={() =>
               openImage(
-                '/projects/maze-prototype.jpg',
+                '/Competitisions/maze-robot.jpg',
                 'Maze Robot Prototype'
               )
             }
             className="w-full text-left"
           >
             <Image
-              src="/projects/maze-prototype.jpg"
+              src="/Competitisions/maze-robot.jpg"
               alt="Maze Solver Prototype"
               width={900}
               height={700}
@@ -196,7 +196,7 @@ Competition engineering project </p>
               className="w-full text-left"
             >
               <Image
-                src="/projects/maze-test.jpg"
+                src="/Competitisions/maze-robot.jpg"
                 alt="Maze Testing"
                 width={700}
                 height={500}
@@ -220,14 +220,14 @@ Competition engineering project </p>
             <button
               onClick={() =>
                 openImage(
-                  '/projects/maze-competition.jpg',
+                  'Competitisions/competition-day.jpg',
                   'Competition Event'
                 )
               }
               className="w-full text-left"
             >
               <Image
-                src="/projects/maze-competition.jpg"
+                src="/Competitisions/competition-day.jpg"
                 alt="Competition Event"
                 width={700}
                 height={500}

@@ -94,35 +94,34 @@ export default function Competitions() {
         </div>
 
         {/* Video */}
+
+        {/* Prototype demonstration */}
         <div className="mt-16 rounded-[2rem] border border-white/10 bg-[#14181D] p-5 md:p-6">
           <div className="aspect-video w-full overflow-hidden rounded-[1.5rem] bg-black">
-            <video
-              controls
-              playsInline
-              preload="metadata"
-              className="h-full w-full"
-              controlsList="nodownload"
-            >
-              <source
-                src="/videos/maze-solver-demo.mp4"
-                type="video/mp4"
-              />
-            </video>
+            <iframe
+              src="https://drive.google.com/file/d/1jICAlBDFCiYtF0sYSWmUluTJ1n9vCJdD/preview"
+              className="h-full w-full border-0"
+              allow="autoplay; fullscreen"
+              allowFullScreen
+              loading="lazy"
+              title="Water Strider Robot demonstration"
+              referrerPolicy="strict-origin-when-cross-origin"
+            />
           </div>
-
+        
           <div className="mt-5">
             <p className="text-sm uppercase tracking-[0.3em] text-[#8FA8C7]">
-              Competition demonstration
+              Prototype demonstration
             </p>
-
+        
             <h3 className="mt-2 text-2xl font-semibold text-[#F5F3EE]">
-              Autonomous maze navigation
+              Bio-inspired water-surface locomotion
             </h3>
-
+        
             <p className="mt-3 text-[#B8BCC6]">
-              Demonstration of the Maze Solver Robot navigating the competition
-              maze using autonomous sensor-based path detection and embedded
-              control logic.
+              Experimental testing of the completed Water Strider Robot prototype
+              demonstrating vibration-based propulsion and locomotion across the
+              water surface.
             </p>
           </div>
         </div>

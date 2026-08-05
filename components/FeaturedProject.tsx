@@ -16,17 +16,17 @@ export default function FeaturedProject() {
   }
 
   return (
-    <>
+      <>
       <section
         id="featured-project"
-        className="mx-auto max-w-7xl px-6 py-20 md:px-8 md:py-28"
+        className="mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-24"
       >
         <div className="mb-14">
           <p className="text-sm uppercase tracking-[0.3em] text-[#8FA8C7]">
             Flagship engineering project
           </p>
 
-          <h2 className="mt-4 text-4xl font-semibold leading-tight text-[#F5F3EE] md:text-6xl">
+          <h2 className="mt-4 text-3xl font-semibold leading-tight text-[#F5F3EE] md:text-6xl">
             Bio-Inspired Water Strider Robot
           </h2>
 
@@ -70,53 +70,51 @@ export default function FeaturedProject() {
                   surface through vibration-based propulsion and optimized
                   weight distribution.
                 </p>
-              </div>
+                
+                <div className="grid grid-cols-2 gap-4 md:gap-6">
+                  <div className="rounded-2xl border border-white/10 bg-white/5 p-4 md:p-5">
+                    <p className="text-[11px] uppercase tracking-[0.25em] text-[#8FA8C7] md:text-xs">
+                      Weight
+                    </p>
+                    <p className="mt-2 text-xl font-semibold leading-tight text-[#F5F3EE] md:text-2xl">
+                      Lightweight
+                    </p>
+                  </div>
 
-              <div className="grid grid-cols-2 gap-5">
-                <div>
-                  <p className="text-xs uppercase tracking-[0.2em] text-[#8FA8C7]">
-                    Weight
-                  </p>
-                  <p className="mt-2 text-2xl font-semibold text-[#F5F3EE]">
-                    Lightweight
-                  </p>
-                </div>
+                  <div className="rounded-2xl border border-white/10 bg-white/5 p-4 md:p-5">
+                    <p className="text-[11px] uppercase tracking-[0.25em] text-[#8FA8C7] md:text-xs">
+                      Structure
+                    </p>
+                    <p className="mt-2 text-xl font-semibold leading-tight text-[#F5F3EE] md:text-2xl">
+                      Biomimetic
+                    </p>
+                  </div>
 
-                <div>
-                  <p className="text-xs uppercase tracking-[0.2em] text-[#8FA8C7]">
-                    Structure
-                  </p>
-                  <p className="mt-2 text-2xl font-semibold text-[#F5F3EE]">
-                    Biomimetic
-                  </p>
-                </div>
+                  <div className="rounded-2xl border border-white/10 bg-white/5 p-4 md:p-5">
+                    <p className="text-[11px] uppercase tracking-[0.25em] text-[#8FA8C7] md:text-xs">
+                      Propulsion
+                    </p>
+                    <p className="mt-2 text-xl font-semibold leading-tight text-[#F5F3EE] md:text-2xl">
+                      Vibration
+                    </p>
+                  </div>
 
-                <div>
-                  <p className="text-xs uppercase tracking-[0.2em] text-[#8FA8C7]">
-                    Propulsion
-                  </p>
-                  <p className="mt-2 text-2xl font-semibold text-[#F5F3EE]">
-                    Vibration
-                  </p>
-                </div>
-
-                <div>
-                  <p className="text-xs uppercase tracking-[0.2em] text-[#8FA8C7]">
-                    Outcome
-                  </p>
-                  <p className="mt-2 text-2xl font-semibold text-[#F5F3EE]">
-                    Working Prototype
-                  </p>
-                </div>
+                  <div className="rounded-2xl border border-white/10 bg-white/5 p-4 md:p-5">
+                    <p className="text-[11px] uppercase tracking-[0.25em] text-[#8FA8C7] md:text-xs">
+                      Outcome
+                    </p>
+                    <p className="mt-2 text-xl font-semibold leading-tight text-[#F5F3EE] md:text-2xl">
+                      Working Prototype
+                    </p>
+                  </div>
               </div>
             </div>
           </div>
         </div>
-
         {/* Video */}
 
         {/* Prototype demonstration */}
-        <div className="mt-16 rounded-[2rem] border border-white/10 bg-[#14181D] p-5 md:p-6">
+        <div className="mt-14 rounded-[2rem] border border-white/10 bg-[#14181D] p-4 md:p-6">
           <div className="aspect-video w-full overflow-hidden rounded-[1.5rem] bg-black">
             <iframe
               src="https://drive.google.com/file/d/1jICAlBDFCiYtF0sYSWmUluTJ1n9vCJdD/preview"
@@ -128,16 +126,17 @@ export default function FeaturedProject() {
               referrerPolicy="strict-origin-when-cross-origin"
             />
           </div>
-        
+        </div>
+
           <div className="mt-5">
             <p className="text-sm uppercase tracking-[0.3em] text-[#8FA8C7]">
               Prototype demonstration
             </p>
-        
+
             <h3 className="mt-2 text-2xl font-semibold text-[#F5F3EE]">
               Bio-inspired water-surface locomotion
             </h3>
-        
+
             <p className="mt-3 text-[#B8BCC6]">
               Experimental testing of the completed Water Strider Robot prototype
               demonstrating vibration-based propulsion and locomotion across the

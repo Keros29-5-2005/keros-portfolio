@@ -127,7 +127,7 @@ Let's connect </p>
       </a>
 
       <a
-        href="https://www.linkedin.com/in/keros-m-7020"
+        href="https://www.linkedin.com/in/keros-m-7020-"
         target="_blank"
         rel="noreferrer"
         className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-[#F5F3EE] transition hover:border-[#8FA8C7]/40 hover:bg-white/10"
